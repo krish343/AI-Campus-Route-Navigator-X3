@@ -1,0 +1,13 @@
+start,destination,agent,route,path_cost_m,nodes_explored,time_seconds
+Reception of Calcutta University,Library,PATHFINDER,Reception of Calcutta University -> CRNN Centre (Nano Technology) -> Auditorium Hall -> Garden Area Technology Campus -> Library,475.0,5,9.3e-05
+Reception of Calcutta University,Library,ORBIT,Reception of Calcutta University -> CRNN Centre (Nano Technology) -> Auditorium Hall -> Garden Area Technology Campus -> Library,475.0,10,6.2e-05
+"Canteen, CU Technology Campus",New Building 2 (Workshop Building),PATHFINDER,"Canteen, CU Technology Campus -> Auditorium Hall -> New Building 2 (Workshop Building)",290.0,3,1.8e-05
+"Canteen, CU Technology Campus",New Building 2 (Workshop Building),ORBIT,"Canteen, CU Technology Campus -> Auditorium Hall -> New Building 2 (Workshop Building)",290.0,3,1.5e-05
+Entry Gate 1 (G1),CSE Laboratory,PATHFINDER,Entry Gate 1 (G1) -> Auditorium Hall -> Garden Area Technology Campus -> Lift Area -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall -> CSE Laboratory,685.0,14,7e-05
+Entry Gate 1 (G1),CSE Laboratory,ORBIT,Entry Gate 1 (G1) -> Auditorium Hall -> Garden Area Technology Campus -> Lift Area -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall -> CSE Laboratory,685.0,40,0.000166
+Auditorium Hall,CSE_AKC Seminar Hall,PATHFINDER,Auditorium Hall -> Garden Area Technology Campus -> Lift Area -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall,485.0,9,4.8e-05
+Auditorium Hall,CSE_AKC Seminar Hall,ORBIT,Auditorium Hall -> Garden Area Technology Campus -> Lift Area -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall,485.0,33,0.000135
+Library,"Canteen, CU Technology Campus",PATHFINDER,"Library -> Garden Area Technology Campus -> Auditorium Hall -> Canteen, CU Technology Campus",440.0,19,7.8e-05
+Library,"Canteen, CU Technology Campus",ORBIT,"Library -> Garden Area Technology Campus -> Auditorium Hall -> Canteen, CU Technology Campus",440.0,10,5e-05
+CSE_Reflexon Room,Entry Gate 4 (G4),PATHFINDER,CSE_Reflexon Room -> CSE Laboratory -> CSE_AKC Seminar Hall -> Lift Area -> Tower 2 Rear Entry -> Library -> Entry Gate 4 (G4),570.0,7,2.8e-05
+CSE_Reflexon Room,Entry Gate 4 (G4),ORBIT,CSE_Reflexon Room -> CSE Laboratory -> CSE_AKC Seminar Hall -> Lift Area -> Tower 2 Rear Entry -> Library -> Entry Gate 4 (G4),570.0,9,3.1e-05

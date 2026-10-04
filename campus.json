@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "student_name": "Krish Kumar",
+    "roll_number": "15",
+    "university": "University of Calcutta",
+    "assignment": "Assignment X_03 - AI Campus Route Navigator",
+    "note": "Coordinates are approximate map positions; edge weights are approximate walking costs derived from the map layout."
+  },
+  "nodes": {
+    "Playground of Technology Campus": {
+      "x": 95,
+      "y": 180
+    },
+    "Parking Area": {
+      "x": 273,
+      "y": 127
+    },
+    "Tower 2 Front Entry": {
+      "x": 247,
+      "y": 171
+    },
+    "CSE_Reflexon Room": {
+      "x": 267,
+      "y": 248
+    },
+    "CSE Laboratory": {
+      "x": 400,
+      "y": 190
+    },
+    "CSE_AKC Seminar Hall": {
+      "x": 400,
+      "y": 250
+    },
+    "Tower 2 Rear Entry": {
+      "x": 480,
+      "y": 140
+    },
+    "Library": {
+      "x": 590,
+      "y": 140
+    },
+    "Lift Area": {
+      "x": 570,
+      "y": 210
+    },
+    "Garden Area Technology Campus": {
+      "x": 655,
+      "y": 285
+    },
+    "New Building 1": {
+      "x": 795,
+      "y": 315
+    },
+    "Entry Gate 2 (G2)": {
+      "x": 915,
+      "y": 345
+    },
+    "Entry Gate 3 (G3)": {
+      "x": 910,
+      "y": 305
+    },
+    "Entry Gate 4 (G4)": {
+      "x": 930,
+      "y": 45
+    },
+    "Entry Gate 1 (G1)": {
+      "x": 185,
+      "y": 585
+    },
+    "Reception of Calcutta University": {
+      "x": 150,
+      "y": 390
+    },
+    "Power Area": {
+      "x": 145,
+      "y": 315
+    },
+    "Canteen, CU Technology Campus": {
+      "x": 150,
+      "y": 490
+    },
+    "CRNN Centre (Nano Technology)": {
+      "x": 345,
+      "y": 355
+    },
+    "Auditorium Hall": {
+      "x": 440,
+      "y": 475
+    },
+    "New Building 2 (Workshop Building)": {
+      "x": 635,
+      "y": 470
+    }
+  },
+  "edges": [
+    {
+      "from": "Entry Gate 1 (G1)",
+      "to": "Reception of Calcutta University",
+      "weight_m": 120
+    },
+    {
+      "from": "Entry Gate 1 (G1)",
+      "to": "Canteen, CU Technology Campus",
+      "weight_m": 60
+    },
+    {
+      "from": "Entry Gate 1 (G1)",
+      "to": "Auditorium Hall",
+      "weight_m": 165
+    },
+    {
+      "from": "Reception of Calcutta University",
+      "to": "Power Area",
+      "weight_m": 45
+    },
+    {
+      "from": "Reception of Calcutta University",
+      "to": "CRNN Centre (Nano Technology)",
+      "weight_m": 120
+    },
+    {
+      "from": "Canteen, CU Technology Campus",
+      "to": "Auditorium Hall",
+      "weight_m": 175
+    },
+    {
+      "from": "Power Area",
+      "to": "Playground of Technology Campus",
+      "weight_m": 85
+    },
+    {
+      "from": "Power Area",
+      "to": "CRNN Centre (Nano Technology)",
+      "weight_m": 120
+    },
+    {
+      "from": "CRNN Centre (Nano Technology)",
+      "to": "Auditorium Hall",
+      "weight_m": 90
+    },
+    {
+      "from": "CRNN Centre (Nano Technology)",
+      "to": "CSE_AKC Seminar Hall",
+      "weight_m": 70
+    },
+    {
+      "from": "Auditorium Hall",
+      "to": "New Building 2 (Workshop Building)",
+      "weight_m": 115
+    },
+    {
+      "from": "Auditorium Hall",
+      "to": "Garden Area Technology Campus",
+      "weight_m": 170
+    },
+    {
+      "from": "Garden Area Technology Campus",
+      "to": "New Building 2 (Workshop Building)",
+      "weight_m": 110
+    },
+    {
+      "from": "Garden Area Technology Campus",
+      "to": "Lift Area",
+      "weight_m": 70
+    },
+    {
+      "from": "Garden Area Technology Campus",
+      "to": "Library",
+      "weight_m": 95
+    },
+    {
+      "from": "Garden Area Technology Campus",
+      "to": "New Building 1",
+      "weight_m": 85
+    },
+    {
+      "from": "New Building 2 (Workshop Building)",
+      "to": "New Building 1",
+      "weight_m": 135
+    },
+    {
+      "from": "New Building 1",
+      "to": "Entry Gate 3 (G3)",
+      "weight_m": 70
+    },
+    {
+      "from": "Entry Gate 3 (G3)",
+      "to": "Entry Gate 2 (G2)",
+      "weight_m": 25
+    },
+    {
+      "from": "Entry Gate 2 (G2)",
+      "to": "Entry Gate 4 (G4)",
+      "weight_m": 180
+    },
+    {
+      "from": "Entry Gate 4 (G4)",
+      "to": "Library",
+      "weight_m": 210
+    },
+    {
+      "from": "Library",
+      "to": "Tower 2 Rear Entry",
+      "weight_m": 65
+    },
+    {
+      "from": "Tower 2 Rear Entry",
+      "to": "Lift Area",
+      "weight_m": 70
+    },
+    {
+      "from": "Tower 2 Rear Entry",
+      "to": "Parking Area",
+      "weight_m": 125
+    },
+    {
+      "from": "Parking Area",
+      "to": "Tower 2 Front Entry",
+      "weight_m": 30
+    },
+    {
+      "from": "Tower 2 Front Entry",
+      "to": "CSE_Reflexon Room",
+      "weight_m": 50
+    },
+    {
+      "from": "Tower 2 Front Entry",
+      "to": "Lift Area",
+      "weight_m": 195
+    },
+    {
+      "from": "CSE_Reflexon Room",
+      "to": "CSE Laboratory",
+      "weight_m": 85
+    },
+    {
+      "from": "CSE Laboratory",
+      "to": "CSE_AKC Seminar Hall",
+      "weight_m": 35
+    },
+    {
+      "from": "CSE_AKC Seminar Hall",
+      "to": "Lift Area",
+      "weight_m": 105
+    }
+  ],
+  "cse_zone": [
+    "CSE Laboratory",
+    "CSE_AKC Seminar Hall",
+    "CSE_Reflexon Room"
+  ],
+  "tower_entries": [
+    "Tower 2 Front Entry",
+    "Tower 2 Rear Entry"
+  ],
+  "heuristic": {
+    "method": "Euclidean straight-line estimate from node coordinates, scaled by 0.55 m per map-pixel unit."
+  }
+}
